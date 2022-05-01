@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+@font-face {
+  font-family: 'opis';
+  src: url('~assets/font/opis.woff2') format('woff2'),
+    url('~assets/font/opis.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'headline';
+  src: url('~assets/font/headline.woff2') format('woff2'),
+    url('~assets/font/headline.otf') format('otf'),
+    url('~assets/font/headline.woff') format('woff');
+}
